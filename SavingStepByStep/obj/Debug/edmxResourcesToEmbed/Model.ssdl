@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AbonnesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Abonnes">
+    <Key>
+      <PropertyRef Name="Telephone" />
+    </Key>
+    <Property Name="Telephone" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="CarteID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="TypeCarte" Type="varchar" MaxLength="20" />
+    <Property Name="Designation" Type="varchar" MaxLength="25" />
+    <Property Name="Prenom" Type="varchar" MaxLength="20" />
+    <Property Name="NumMaison" Type="nchar" MaxLength="10" />
+    <Property Name="Avenue" Type="varchar" MaxLength="255" />
+    <Property Name="Quartier" Type="varchar" MaxLength="50" />
+    <Property Name="Commune" Type="varchar" MaxLength="50" />
+    <Property Name="Ville" Type="varchar" MaxLength="50" />
+    <Property Name="Nationalite" Type="varchar" MaxLength="50" />
+    <Property Name="Datenaissance" Type="datetime" />
+    <Property Name="LieuNaissance" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="AbonnesModelStoreContainer">
+    <EntitySet Name="Abonnes" EntityType="Self.Abonnes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

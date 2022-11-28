@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AbonnesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Abonne">
+    <Key>
+      <PropertyRef Name="Telephone" />
+    </Key>
+    <Property Name="Telephone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CarteID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TypeCarte" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Designation" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Prenom" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NumMaison" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Avenue" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Quartier" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Commune" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ville" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nationalite" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Datenaissance" Type="DateTime" Precision="3" />
+    <Property Name="LieuNaissance" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AbonnesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abonnes" EntityType="Self.Abonne" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,13 @@
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\SavingStepByStep.exe.config
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\SavingStepByStep.exe
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\SavingStepByStep.pdb
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\EntityFramework.dll
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\EntityFramework.SqlServer.dll
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\EntityFramework.xml
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\bin\Debug\EntityFramework.SqlServer.xml
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.csprojResolveAssemblyReference.cache
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.frmEnregistrementAbonne.resources
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.Properties.Resources.resources
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.csproj.GenerateResource.Cache
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.exe
+E:\FOXLEARN\CSharp\SavingStepByStep\SavingStepByStep\obj\Debug\SavingStepByStep.pdb
